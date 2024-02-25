@@ -1,0 +1,130 @@
+@media (max-width: 768px) {
+  .productDisplay .containers {
+    display: grid !important;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)) !important;
+    gap: 30px;
+    /* height: 100% !important;     */
+  }
+}
+@media (max-width: 449px) {
+    .productDisplay .containers {
+      display: grid !important;
+      align-items: center;
+      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)) !important;
+      gap: 30px;
+      /* height: 100% !important;     */
+    }
+  }
+
+/* //////////////////////////////////////////////// */
+.productDisplay {
+  height: calc(100vh - 80px);
+  margin-top: 80px;
+  padding: 40px 0;
+}
+.productDisplay .containers {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill , minmax(500px , 1fr)); */
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  height: 100%;
+}
+.proDisplayLeft {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  height: 100%;
+}
+.smallImage {
+  flex: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.smallImage img {
+  width: 100%;
+  height: 100%;
+}
+.mainImage {
+  flex: 80%;
+}
+.mainImage img {
+  width: 100%;
+  height: 100%;
+}
+.proDisplayRight {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-left: 20px;
+}
+.proDisplayRight h1 {
+  margin-top: 0;
+}
+.proDisplayRight .rate {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 15px;
+}
+.proDisplayRight .rate img {
+  width: 15px;
+  height: 15px;
+}
+.proDisplayRight .proPrice {
+  display: flex;
+  gap: 40px;
+  margin: 20px 0;
+}
+.proDisplayRight .old-price {
+  text-decoration: line-through;
+  color: #000000a7;
+  font-weight: 500;
+}
+.proDisplayRight .new-price {
+  color: #ff4141;
+  font-weight: 700;
+}
+.proDisplayRight .detailes {
+  margin-bottom: 20px;
+}
+.proDisplayRight .sizes {
+  display: flex;
+  gap: 25px;
+  margin-top: 15px;
+}
+.proDisplayRight .sizes p {
+  background-color: #00000010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.proDisplayRight button.addToCart {
+  width: 140px;
+  height: 40px;
+  color: white;
+  background: #ff4141;
+  border: none;
+  outline: none;
+  margin: 20px 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+.proDisplayRight .category-type {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.category-type p {
+  font-size: 17px;
+  font-weight: 700;
+}
+.category-type span {
+  font-size: 16px;
+  color: #000000a7;
+}

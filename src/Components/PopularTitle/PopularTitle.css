@@ -1,0 +1,22 @@
+ h2.titleComponent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2.titleComponent hr {
+  border: none;
+  width: 60%;
+  height: 3px;
+  background: #252525;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}

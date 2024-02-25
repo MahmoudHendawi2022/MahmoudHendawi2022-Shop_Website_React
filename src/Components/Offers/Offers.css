@@ -1,0 +1,28 @@
+.offers {
+  margin-top: 150px;
+}
+.offers .containers {
+  display: flex;
+  height: 70vh;
+  padding-left: 15px;
+  background: linear-gradient(180deg, #f2cef5, #e1ffea22 60%);
+}
+.offers-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+  line-height: 1.1;
+  margin-left: 40px;
+}
+.offers-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offers-right img {
+  width: 100%;
+  height: 100%;
+}

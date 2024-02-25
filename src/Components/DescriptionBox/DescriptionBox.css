@@ -1,0 +1,39 @@
+@media (max-width : 767px) {
+    .descriptionBox {
+        margin-top:500px !important;
+    }
+}
+/* ////////////////////////////// */
+.descriptionBox {
+    margin-bottom: 120px;
+    margin-top: 100px;
+}
+.descriptionBox .containers {
+    display: flex;
+    flex-direction: column;
+}
+.description-box-nav {
+    display: flex;
+}
+.description-box-nav div {
+    width: 130px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00000039;
+    font-size: 17px;
+    cursor: pointer;
+}
+.fade {
+    background-color: #f9f5f5;
+    color: #424040;
+} 
+.description-detailes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid #00000039;
+    padding: 20px;
+    line-height: 1.5;
+}

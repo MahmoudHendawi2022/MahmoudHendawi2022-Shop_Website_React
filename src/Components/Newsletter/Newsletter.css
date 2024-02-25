@@ -1,0 +1,80 @@
+@media (max-width : 599px) {
+  .newsletter .containers form.subscribe {
+    width: 90% !important;
+  }
+  form.subscribe input {
+    flex: 1;
+    width: 300px !important;
+    padding-left: 20px;
+  }
+  form.subscribe button {
+    width: 150px !important;
+    height: 60px;
+    color: white;
+  }
+}
+/* ////////////////////////////////////// */
+@media (min-width : 600px) {
+  form.subscribe input {
+    flex: 1;
+    width: 300px !important;
+    padding-left: 20px;
+  }
+  form.subscribe button {
+    width: 150px !important;
+    height: 60px;
+    color: white;
+  }
+  .newsletter .containers form.subscribe {
+    width: 90% !important;
+  }
+  
+}
+/* //////////////////////////////////////////// */
+.newsletter {
+  margin-top: 150px;
+}
+.newsletter .containers {
+  background: linear-gradient(180deg, #f2cef5, #e1ffea22 60%);
+  height: 50vh;
+  text-align: center;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter .containers form.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 600px;
+  color: white;
+  border: 1px solid #e3e3e3;
+  border-radius: 0 30px 30px 0;
+  -webkit-border-radius: 0 30px 30px 0;
+  -moz-border-radius: 0 30px 30px 0;
+  -ms-border-radius: 0 30px 30px 0;
+  -o-border-radius: 0 30px 30px 0;
+}
+form.subscribe input {
+  flex: 1;
+  width: 390px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  font-size: 16px;
+}
+form.subscribe button {
+  width: 200px;
+  height: 60px;
+  color: white;
+  background: #000;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}

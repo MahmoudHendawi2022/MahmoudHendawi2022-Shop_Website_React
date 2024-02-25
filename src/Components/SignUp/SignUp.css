@@ -1,0 +1,56 @@
+@media (max-width : 600px) {
+  .signUp form {
+    width: 90% !important;
+    
+  }
+}
+
+.signUp {
+  background: #f4b6f1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signUp .containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signUp form {
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 15px;
+  padding: 20px;
+  background-color: white;
+}
+.signUp form button {
+  width: 100%;
+  background: #ff4141;
+  color: white;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.signUp form p {
+  color: #000000c4;
+}
+.signUp form span {
+  color: #ff4141;
+  font-weight: 700;
+  cursor: pointer;
+}
+.login-signUp-agree {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.signUp form h2 {
+    margin: 0;
+    display: block;
+    text-transform: capitalize;
+}
